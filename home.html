@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Bun Bun Bake Shop</title>
   <!-- styles -->
@@ -11,33 +12,31 @@
 <body>
   <header class="header-nav">
     <nav>
-      <a id="home-header-link"">Bun Bun Bake Shop</a>
-      <a class="main-header-links">Shop</a>
-      <a class="main-header-links">About</a>
-      <a class="main-header-links">Contact</a>
-      <a id="cart-icon"><img src="carticon.svg"></a>
+      <a class="home-header-link">Bun Bun Bake Shop</a>
+      <div class="center-nav">
+        <a class="main-header-links" href="shop.html">Shop</a>
+        <a class="main-header-links">About</a>
+        <a class="main-header-links">Contact</a>
+      </div>
+      <a class="cart-icon"><img src="carticon.svg"></a>
     </nav>
   </header>
 
   <div id="banner">We ship anywhere in the Pittsburgh area!</div>
 
-  <div id="left-side">
-    <img src="homeimage.png">
+  <div class="home-grid">
+    <div class="left-side"><img src="homeimage.png" id="homeimage"></div>
+    <div class="right-side">
+      <h1 id="bunbun">Bun Bun</h1>
+      <h2 id="bakeshop">Bake Shop</h2>
+      <p id="description">We are a small bakery that specializes in cinnamon
+        rolls, from our famous original cinnamon rolls to a
+        variety of artisan flavors. Our shop is located in
+        Pittsburgh, PA and we ship fresh rolls anywhere in
+        the Pittsburgh area.</p>
+      <button class="buttons" id="shoprolls-button">Shop Rolls</button>
+    </div>
   </div>
-
-  <div id="right-side">
-    <h1 id="bunbun">Bun Bun</h1>
-    <h2 id="bakeshop">Bake Shop</h2>
-    <p id="description">We are a small bakery that specializes in cinnamon
-      rolls, from our famous original cinnamon rolls to a
-      variety of artisan flavors. Our shop is located in
-      Pittsburgh, PA and we ship fresh rolls anywhere in
-      the Pittsburgh area.</p>
-    <button class="buttons" id="shoprolls-button">Shop Rolls</button>
-  </div>
-
-
-
 </body>
 
 </html>
