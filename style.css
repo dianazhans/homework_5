@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #F6E1DC;
+  height: 50px;
+  color: #491707;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.main-header-links {
+  padding: 20px;
+}
+
+#home-header-link {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#cart-icon {
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#banner {
+  background-color: #EDA31E;
+  color: #491707;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+#left-side {
+  position: relative;
+  width: 60%;
+  float: left;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#right-side {
+  position: relative;
+  width: 40%;
+  float: left;
+  height: 100%;
+  color: #491707;
+}
+
+#bunbun {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  font-size: 90px;
+  padding-left: 50px;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+#bakeshop {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  font-size: 48px;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+#description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-right: 130px;
+  padding-left: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  width: 245px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #D25150;
+  border-radius: 8px;
+  border: #D25150;
+}
+
+#shoprolls-button {
+  margin-left: 50px;
+}
